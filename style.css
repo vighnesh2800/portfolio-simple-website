@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Young Serif", serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.section-one__heading {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 20px;
+}
+
+.section-two__description,
+.section-three__description,
+.section-four__description,
+.section-five__description {
+    margin-top: 10px;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-five__title a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #6464FD;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 250px;
+    vertical-align: top;
+}
+
+.section-four {
+    background-color: #FE7517;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 250px;
+    vertical-align: top;
+}
+
+
+.sec-one,
+.sec-two,
+.sec-three {
+    margin-top: 20px;
+}
+
+.sec-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.sec-three {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.sec-three a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+.sec-three__description {
+    margin-top: 10px;
+}
+
+.sec-one__contact {
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.sec-one__heading {
+    font-size: 60px;
+}
+
+.sec-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.sec-two form {
+    margin-top: 20px;
+}
+
+.sec-two__input,
+.sec-two__textarea,
+.sec-two__submit {
+    margin-top: 10px;
+}
+
+.sec-two__input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.sec-two__textarea {
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+.sec-two__submit {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
